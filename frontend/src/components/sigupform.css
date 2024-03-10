@@ -1,0 +1,62 @@
+body {
+  background-color: #ffffff; /* Set pure white background color */
+  font-family: var(--font-name);
+  margin: 0;
+}
+
+
+
+
+.login__container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+  margin-top: 100px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.login__form {
+  padding: 50px;
+  background: var(--secondary-color);
+  position: relative;
+  width: 40%; /* Adjust the width of the form */
+  margin-right: 20px;
+  margin-left:80px; /* Add margin to create space between the image and form */
+}
+
+.login__img {
+  text-align: center;
+  width: 50%; /* Adjust the width of the image container */
+}
+
+.login__img img {
+  width: 50%;
+  object-fit: contain;
+}
+
+.login__form input {
+  width: 80%;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  border: 2px solid #000; /* Adding a black border */
+  margin-bottom: 15px; /* Adding spacing between input fields */
+  font-size: 0.8rem;
+  color: var(--heading-color);
+}
+
+.login__form input:focus {
+  outline: none;
+}
+
+/* Other styles you may have in your CSS */
+
+:root {
+  --primary-color: #ff7e01;
+  --secondary-color: #faa935;
+  --heading-color: #0b2727;
+  --text-color: #6e7074;
+  --font-name: "Montserrat", sans-serif;
+  --subtitle-font-name: "Island Moments", cursive;
+}
+
+/* Additional styles... */
