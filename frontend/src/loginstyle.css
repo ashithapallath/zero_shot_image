@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* Center the login form */
+.login-form {
+    margin-top: 50px;
+  }
+  
+  /* Form styling */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    width: 100%;
+  }
+  
+  /* Link styling */
+  p {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  

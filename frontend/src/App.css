@@ -1,0 +1,140 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+/* Government Details */
+.government-details {
+  background-color: #ffffff;
+  color: #020202;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.government-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.government-info h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.government-info p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Cards */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Tables */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.table th {
+  background-color: #5e81ac;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f8f9fa;
+}
+
+/* Buttons */
+.btn-primary,
+.btn-secondary {
+  background-color: #5e81ac;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary {
+  background-color: #95a5a6;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  background-color: #4c6983;
+}
+
+/* Modals */
+.modal-content {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+/* Anomalies Detection Images */
+.anomalies-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 10px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .government-details {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .government-info h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .government-info p {
+    font-size: 14px;
+  }
+}
